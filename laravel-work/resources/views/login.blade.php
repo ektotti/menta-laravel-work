@@ -1,8 +1,13 @@
-@extends('layouts.login')
+@extends('layouts.base')
+
+@section('mainManu')
+<a class="text-muted mx-3" href="login">login</a>
+<a class="text-muted" href="register">register</a>
+@endsection
 
 @section('title','Login')
 
-@section('form')
+@section('mainContent')
 <form class="row" action="" method="POST">
     <div class="m-2 row d-flex justify-content-center">
         <label class="form-label col-2 m-0 px-4 text-end" for="email">E-Mail Address</label>
