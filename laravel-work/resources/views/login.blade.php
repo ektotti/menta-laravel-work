@@ -2,7 +2,7 @@
 
 @section('mainManu')
 <a class="text-muted mx-3" href="login">login</a>
-<a class="text-muted" href="register">register</a>
+<a class="text-muted" href="register/create">register</a>
 @endsection
 
 @section('title','Login')

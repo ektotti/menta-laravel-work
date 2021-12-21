@@ -1,14 +1,14 @@
 @extends('layouts.base')
 
 @section('mainManu')
-<a class="text-muted mx-3" href="login">login</a>
-<a class="text-muted" href="register">register</a>
+<a class="text-muted mx-3" href="/laravelwork/login">login</a>
+<a class="text-muted" href="/laravelwork/register/create">register</a>
 @endsection
 
 @section('title','Register')
 
 @section('mainContent')
-<form class="row" action="register" method="POST">
+<form class="row" action="/laravelwork/register" method="POST">
     @csrf
 
     <div class="m-2 row d-flex flex-column">
