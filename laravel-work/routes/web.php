@@ -18,5 +18,4 @@ Route::get('/', function () {
 });
 
 Route::get('login', 'LoginController@get');
-
-Route::get('register', 'RegisterController@get');
+Route::resource('register', 'RegisterController', ['only' => ['create', 'store']]);

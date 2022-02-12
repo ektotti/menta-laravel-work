@@ -13,8 +13,7 @@
             <div class="d-flex justify-content-between py-3 align-items-center">
                 <h2>laravel</h2>
                 <div class="links">
-                    <a class="text-muted mx-3" href="login">login</a>
-                    <a class="text-muted" href="register">register</a>
+                    @yield('mainManu')
                 </div>
             </div>
         </div>
@@ -26,8 +25,8 @@
                     @yield('title')
                 </h1>
             </div>
-            <div class="form p-3">
-            @yield('form')
+            <div class="mainContent p-3">
+                @yield('mainContent')
             </div>
         </div>
     </main>
